@@ -1,0 +1,7 @@
+In this updated code, the Scanner class is used to take input from the user.
+
+First, the user is asked to enter the rank and suit of the card they want to find. The Scanner class is used to read the user's input, which is then passed to the findCard() method of the Deck class to find the card. The result is printed to the console.
+
+Next, the user is asked how many cards they want to deal. The Scanner class is used to read the user's input, which is then passed to the dealCard() method of the Deck class to deal the requested number of cards. The resulting hand is printed to the console.
+
+Finally, the user is asked if they want to shuffle the deck. If the user enters "y", the shuffleDeck() method of the Deck class is called to shuffle the deck. The shuffled deck is then printed to the console.
